@@ -10,3 +10,18 @@ At the actual version, all it does is permiting the user to login and logout (at
 ## Release ver 0.2 incoming improvements
 On version 0.2 is expected to be an login and *sign in* form and also an welcome page with a logout button.
 The *sign in*, login and logout should work by and **node.js** api on backend as the form is expected to be made using **unform** framework made by ***RocketSeat***.
+
+#### Get it running
+To run the application you might have an *Android/IOS* device running (real or emulator) and first get the app working by:
+
+```shell
+yarn start
+```
+After the application is running, you have to install it on your android device by (using another terminal instance):
+
+
+```shell
+yarn android
+```
+
+After that, it should be working fine.
